@@ -10,8 +10,8 @@ int main(){
 		for(int j = 0; j < n; ++j)
 			flag[i][j] = 0;
 	
-	int	i = 0, j = 0;
-	int state = 0; 
+	int i = 0, j = 0;
+	int state = 0; // 0 - right, 1 - down, 2 - left, 3 - up 
 	
 	while(1){
 		a[i][j] = count + 1;
